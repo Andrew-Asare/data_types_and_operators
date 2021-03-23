@@ -37,10 +37,28 @@ It gives the remainder of the 2 numbers
 
 ### Let's have a look at some string methods
 ```python
-
+greetings = "Hello World!"
+print(greetings[0:5])
+print(greetings[6:11])
+print(greetings[-6:])
 
 ```
+### Concatination
 
+- Here is an example of concatination adding both variables together
+```python
+first_name = "Ben"
+last_name = "Jerry"
+print(first_name + " "  + last_name)
+```
 
+### A Useful formating tool!
 
+- Using f{} we can format and concat variables
+```python
+print(f"Your first name is {first_name} and your last name is {last_name} is {age} old")
 
+```
+- If first name was Ben, last name was Jerry and age was 99 the output would be
+`Your first name is Ben and your last name is Jerry and your age is 99
+`
